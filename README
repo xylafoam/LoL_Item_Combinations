@@ -178,30 +178,34 @@ combos: Will test combinations of items against the provided expression to help 
 
 	EXAMPLE END
 	
-	./combos <number>									# command used to run the program. 
-												# <number> represents how many items can be used from "items.txt" simultaneously
-												#
-	Are you looking for the smallest or largest value? (Enter S or L ): <L or S>		# 
-	Enter allowed difference: <val>								# <val> a value that represents how close to the current largest or smallest 
-												# value a set has to be for it to be shown in the results
-												#
-	Include a stat that is not found in the "expr.txt" file? (Enter yes or no): <y or n>	#
-												#
-	Set min and max value for a stat? (Enter yes or no): <y or n>				# A minimum, maximum, and hard maximum can be set for stats for a stat.
-												# if minumum is not met or hard maximum is exceeded the item set will be ignored
-												# if maximum is exceeded the stat will be set equal to maximum the evaluated.
-												#
-	Ignore illegal combinations? (Enter yes or no): <y or n>				#
-	int variable used: GRP									#
-												#
-	Would you like to include an item? (Enter yes or no): <y or n>				# items can be included so that every combination of <number> items will also
-												# include the items you specify. use the line number a desired item is found on in "items.txt"
-												# to select items.
-												# simulate an item's unique effect by
-												# modifying expressions in "expr.txt" and/or modify the items stats
-												# then include the item when prompted.
-												# 
-	Output place in file "result.txt"							#
+	./combos <number>									
+		# command used to run the program. 
+		# <number> represents how many items can be used from "items.txt" simultaneously
+	
+	Are you looking for the smallest or largest value? (Enter S or L ): <L or S> 
+	Enter allowed difference: <val>								
+		# <val> a value that represents how close to the current largest or smallest 
+		# value a set has to be for it to be shown in the results
+												
+	Include a stat that is not found in the "expr.txt" file? (Enter yes or no): <y or n>
+	
+	Set min and max value for a stat? (Enter yes or no): <y or n>				
+		# A minimum, maximum, and hard maximum can be set for stats for a stat.
+		# if minumum is not met or hard maximum is exceeded the item set will be ignored
+		# if maximum is exceeded the stat will be set equal to maximum the evaluated.
+	
+	Ignore illegal combinations? (Enter yes or no): <y or n>
+	int variable used: GRP
+	
+	Would you like to include an item? (Enter yes or no): <y or n>				
+		# items can be included so that every combination of <number> items will also
+		# include the items you specify. use the line number a desired item is found on in "items.txt"
+		# to select items.
+		# simulate an item's unique effect by
+		# modifying expressions in "expr.txt" and/or modify the items stats
+		# then include the item when prompted.
+												
+	Output place in file "result.txt"							
 	
 	
 	
